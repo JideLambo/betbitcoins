@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+$primaryColor: #2861B0;
+
+.main-page {
+    background: $primaryColor; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    background-color: transparent;
+    position: relative;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.addBg {
+    background-color: #ffffff;
+}
+.navbar-brand {
+    background-image: url(../../dist/img/logo.png);
+    text-indent: -9999px;
+    width: 202px;
+    height: 50px;
+    margin-right: 70px;
+}
+.navbar-nav {
+    
+    li {
+        border-right: 1px solid #fff;
+        
+        &:last-child {
+            border: 0;
+        }
+        a{
+            color: #ffffff !important;
+        }
+    }
+}
+
+.landing-container {
+    background-color: $primaryColor; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    .welcome-text {
+        text-align: center;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        
+        .subtitle {
+            color: #19DA94;
+            font-size: 30px;
+            text-transform: uppercase;
+            padding-bottom: 4px;
+            font-weight: 500;
+        }
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+            color: #ffffff;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+    }
+}
+
+.gamesBy {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    h2 {
+        color: #143057;
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.featuredGames {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+    .section-title {
+        margin-bottom: 30px;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    .gameCards {
+        
+        .card-col {
+            margin-top: 30px;    
+        }
+        
+        .card {
+            background-color: #ffffff;
+            min-height: 400px;
+            overflow: hidden;
+            display: block;
+            
+            .gameName {
+                text-align: center;
+                color: #143057;
+                font-size: 30px;
+                font-weight: 500;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .gameDesc {
+                text-align: center;
+                font-size: 14px;
+                color: #143057;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #1F2C3E;
+    
+    .footerText {
+        padding: 10px;
+        
+        p {
+            text-align: center;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+        }
+    }
+}
