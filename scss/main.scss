@@ -106,7 +106,15 @@ $primaryColor: #2861B0;
     .gameCards {
         
         .card-col {
-            margin-top: 30px;    
+            margin-top: 30px;
+            
+            &:hover {
+                
+                .card {
+                    background-color: #ececec;
+                    text-decoration: none;
+                }
+            }
         }
         
         .card {

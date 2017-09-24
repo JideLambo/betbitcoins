@@ -80,6 +80,9 @@
     font-weight: 500; }
   .featuredGames .gameCards .card-col {
     margin-top: 30px; }
+    .featuredGames .gameCards .card-col:hover .card {
+      background-color: #ececec;
+      text-decoration: none; }
   .featuredGames .gameCards .card {
     background-color: #ffffff;
     min-height: 400px;
