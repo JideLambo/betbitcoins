@@ -1,14 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Mukta");
 .main-page {
-  background: #2861B0;
-  font-family: 'Roboto Slab', serif; }
+  background: #1B1B1D;
+  font-family: 'Mukta', serif; }
 
 .navbar {
-  background-color: transparent;
+  background-color: #A20000;
   position: relative;
   border: 0;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-bottom: 0; }
 
 .addBg {
   background-color: #ffffff; }
@@ -25,10 +26,11 @@
   .navbar-nav li:last-child {
     border: 0; }
   .navbar-nav li a {
-    color: #ffffff !important; }
+    color: #ffffff !important;
+    font-size: 16px !important; }
 
 .landing-container {
-  background-color: #2861B0;
+  background-color: #1B1B1D;
   padding-top: 40px;
   padding-bottom: 40px; }
   .landing-container .welcome-text {
@@ -71,10 +73,10 @@
     align-items: center; }
 
 .featuredGames {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 60px; }
   .featuredGames .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #ffffff;
     font-size: 40px;
     font-weight: 500; }
@@ -113,3 +115,16 @@
       font-size: 12px;
       font-weight: lighter;
       letter-spacing: 1px; }
+
+.btn {
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: #A20000;
+  color: #fff; }
+
+.carousel-caption {
+  bottom: 60px; }
+  .carousel-caption h2 {
+    font-size: 38px; }
+  .carousel-caption p {
+    font-size: 18px; }
