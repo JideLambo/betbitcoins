@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 
-$primaryColor: #1B1B1D;
+$primaryColor: #364857;
 
 .main-page {
     background: $primaryColor; 
@@ -8,12 +8,13 @@ $primaryColor: #1B1B1D;
 }
 
 .navbar {
-    background-color: #A20000;
+    background-color: #F75940;
     position: relative;
     border: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
+    border-bottom: 2px solid #FF9E16;
 }
 .addBg {
     background-color: #ffffff;
@@ -28,14 +29,14 @@ $primaryColor: #1B1B1D;
 .navbar-nav {
     
     li {
-        border-right: 1px solid #fff;
         
-        &:last-child {
-            border: 0;
-        }
         a{
             color: #ffffff !important;
             font-size: 16px !important;
+            
+            .active {
+                color: #333;
+            }
         }
     }
 }
@@ -113,7 +114,7 @@ $primaryColor: #1B1B1D;
             &:hover {
                 
                 .card {
-                    background-color: #ececec;
+                    background-color: #f5f5f5;
                     text-decoration: none;
                 }
             }
@@ -121,9 +122,10 @@ $primaryColor: #1B1B1D;
         
         .card {
             background-color: #ffffff;
-            min-height: 400px;
+            min-height: 350px;
             overflow: hidden;
             display: block;
+            box-shadow: 2px 4px 10px #334252;
             
             .gameName {
                 text-align: center;
@@ -163,20 +165,48 @@ $primaryColor: #1B1B1D;
 }
 
 .btn {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
-    background-color: #A20000;
+    background-color: #F75940;
     color: #fff;
+    letter-spacing: 1px;
 }
-
+.btn-playGame {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-weight: 200;
+    background-color: #F75940;
+    box-shadow: 1px 2px 10px #888888;
+    transition: box-shadow 0.5s ease-out, background-color 0.5s ease-out;
+}
+.btn-playGame:hover {
+    color: #ffffff;
+    background-color: #FC6E5E;
+    box-shadow: 0 1px 10px #888888;
+}
+.btn-signUp {
+    letter-spacing: 1px;
+    font-weight: 200;
+    box-shadow: 1px 2px 10px #333333;
+    transition: box-shadow 0.5s ease-out, background-color 0.5s ease-out;
+}
+.btn-signUp:hover {
+    color: #ffffff;
+    background-color: #FC6E5E;
+    box-shadow: 0 1px 10px #888888;
+}
 .carousel-caption {
     bottom: 60px;
     
     h2 {
         font-size: 38px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 10px #333333;
     }
     p {
         font-size: 18px;
-        
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 10px #333333;
     }
 }
