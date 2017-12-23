@@ -71,6 +71,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  .gamesBy .ads-banner {
+    display: block; }
+    .gamesBy .ads-banner img {
+      margin: 0 auto;
+      width: 100%; }
 
 .featuredGames {
   padding-top: 20px;
@@ -159,10 +164,17 @@
 .carousel-caption {
   bottom: 60px; }
   .carousel-caption h2 {
-    font-size: 38px;
+    font-size: 58px;
     letter-spacing: 1px;
     text-shadow: 2px 3px 10px #333333; }
   .carousel-caption p {
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 2px 3px 10px #333333; }
+
+.carousel-slider a {
+  color: #ffffff; }
+  .carousel-slider a:hover {
+    text-decoration: none; }
+.carousel-slider img {
+  width: 100%; }

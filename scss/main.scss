@@ -94,6 +94,14 @@ $primaryColor: #364857;
         justify-content: space-between;
         align-items: center;
     }
+    .ads-banner {
+        display: block;
+
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
 }
 
 .featuredGames {
@@ -208,13 +216,27 @@ $primaryColor: #364857;
     bottom: 60px;
     
     h2 {
-        font-size: 38px;
+        font-size: 58px;
         letter-spacing: 1px;
         text-shadow: 2px 3px 10px #333333;
     }
     p {
-        font-size: 18px;
+        font-size: 28px;
         letter-spacing: 1px;
         text-shadow: 2px 3px 10px #333333;
+    }
+}
+
+.carousel-slider {
+
+    a {
+        color: #ffffff;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    img {
+        width: 100%;
     }
 }
